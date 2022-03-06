@@ -11,7 +11,7 @@ function navbar(){
     <div class="home">Blog</div>
     <div class="home">About Us</div>
 </div>
-<div><button class="btn">Call:9100347480</button></div>
+<div ><button class="btn">Call:9100347480</button></div>
 `
 }
 
