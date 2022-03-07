@@ -60,7 +60,7 @@
     margin-top: 6%;
     margin-left: -2px;
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:800px){
     .contact{
         display: none;
     }
@@ -70,4 +70,7 @@
     .Explore{
         margin-left: 12%;
     }
+}
+a{
+    text-decoration: none;
 }
