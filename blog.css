@@ -6,7 +6,7 @@
 }
 body{
     margin: 0%;
-    height: 200vh;
+   min-height: 200vh;
     /* border: 1px solid black; */
 }
 .header{
@@ -84,7 +84,7 @@ body{
     padding-right: 20px;
     border-radius: 30px;
     position: absolute;
-    top:93vh;
+    top:101vh;
     left: 9%;
 }
 .uncategorized:hover {
@@ -176,7 +176,7 @@ hr{
     padding-right: 20px;
     border-radius: 30px;
     position: absolute;
-    top:72vh;
+    top:81.5vh;
     left: 47%;
 }
 .nutrition:hover {
@@ -245,7 +245,7 @@ hr{
     padding-right: 20px;
     border-radius: 30px;
     position: absolute;
-    top:134vh;
+    top:143.6vh;
     left: 46%;
 }
 .nutrition2:hover {
@@ -325,7 +325,7 @@ hr{
     /* margin-left: 15px; */
     margin-left: 5%;
 }
-.btn{
+.viewmore{
     color: white;
     background-color: rgb(218,36,36);
     padding: 12px;
@@ -339,7 +339,7 @@ hr{
     margin-right: 40%;
     text-align: center;
 }
-.btn:hover {
+.viewmore:hover {
     background-color:  rgb(142,192,56);
     color: black;
 }
@@ -492,7 +492,7 @@ hr{
     .side-bar-uncategorised{
         margin-left: 13%;
     }
-    .btn{
+    .viewmore{
         margin-left: 10%;
         /* margin-right: 14%; */
     }
@@ -632,12 +632,17 @@ hr{
     .side-bar-uncategorised{
         margin-left: 13%;
     }
-    .btn{
+    .viewmore{
         margin-left: 10%;
         /* margin-right: 14%; */
     }
   
 }
+
+
+
+
+
 
 
 
