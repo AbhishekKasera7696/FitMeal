@@ -2,19 +2,19 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="maintainance_meal_plan.css">
+<link rel="stylesheet" href="weight_loss_meal_plan.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-<title>maintainance meal plan</title>
+<title>Keto</title> meal plan</title>
 </head>
 <body>
     <div class="meal-plan-container">
     </div>
-    <div class="meal-plan-text"><h1>Maintenance Meal Plan</h1></div>
+    <div class="meal-plan-text"><h1>Athletic Meal Plan</h1></div>
 
     <div class="sample-menu">
         <div class="sample-menu-text">
@@ -23,7 +23,7 @@
             <button type="button" id="sample-menu-button">View Sample Menu</button>
         </div>
         <div class="sample-menu-slider">
-            <p id="What-our-meals-look-like">What out meals look like:</p>
+            <p id="What-our-meals-look-like">What our meals look like:</p>
         <div class="sample-menu-slider">
             <div class="slideshow-container">
 
@@ -126,7 +126,7 @@
                     </li>
                     <li>Plan flexibility</li>
                 </ul>
-            <a href="1_week_Maintainance_plan.html"><button class="ordernow" type="button">Order Now</button></a>
+            <a href="1_week_weight_loss_plan.html"><button class="ordernow" type="button">Order Now</button></a>
             
         </div>
 
@@ -144,8 +144,8 @@
                     </li>
                     <li>Plan flexibility</li>
                 </ul>
-            <a href="2_week_Maintainance_plan.html"></a>
-            <button class="ordernow" type="button">Order Now</button>
+            <a href="2_week_keto_plan.html"><button class="ordernow" type="button">Order Now</button></a>
+            
         </div>
 
         <div class="plan">
@@ -162,28 +162,68 @@
                     </li>
                     <li>Discounted Prices</li>
                 </ul>
-            <a href="4_week_Maintainance_plan.html"><button class="ordernow" type="button">Order Now</button></a>
+            <a href="4_week_keto_plan.html"><button class="ordernow" type="button">Order Now</button></a>
             
         </div>
     </div>
 
-        <div class="foodlist">
-            <div class="col-1">
-                <img src="dish1.jpg" alt="">
-                <img src="dish2.jpg" alt="">
-                <img src="dish3.jpg" alt="">
+        <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img src="person1.jpg" alt="">
+                <img src="person4.jpg" alt="">
+                <img src="person5.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="person2.jpg" alt="">
+                <img src="person6.jpg" alt="">
+                <img src="person7.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="person3.jpg" alt="">
+                <img src="person8.jpg" alt="">
+                <img src="person9.jpg" alt="">
+              </div>
+
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+
+              </div>
+              <!--automatic navigation end-->
             </div>
-            <div class="col-1">
-                <img src="dish4.jpg" alt="">
-                <img src="dish5.jpg" alt="">
-                <img src="dish6.jpg" alt="">
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
             </div>
+            <!--manual navigation end-->
+          </div>
+          <!--image slider end-->
+
+
+        <div class="quote">
+            <img src="double quotes icon.png" alt="">
+            <h1 id="quote">
+                Get fit in the gym,<br>
+                lose weight in the kitchen.
+            </h1>
         </div>
 
 
 
-
-
-<script type="text/javascript" src="maintainance_meal_plan.js"></script>
+<script type="text/javascript" src="weight_loss_meal_plan.js"></script>
 </body>
 </html> 
