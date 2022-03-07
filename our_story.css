@@ -15,7 +15,8 @@ body{
 }
 .about{
     position: absolute;
-    bottom: 150px;
+    /* bottom: 150px; */
+    top: 13vh;
     right: 50%;
     /* background-color: black; */
     color: white;
@@ -96,7 +97,8 @@ padding-right: 93px;
     /* margin-left: 190px; */
     margin-left: 10%;
     /* margin-right: 160px; */
-    margin-right: 190px;
+    /* margin-right: 190px; */
+    margin-right: 10%;
     padding-bottom: 130px;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -112,8 +114,10 @@ padding-right: 93px;
    background-color: rgb(243,245,237);
    margin-top: -1.9%;
    padding-top: -2.3%;
-   margin-left:  170px;
-   margin-right:170px;
+   /* margin-left:  170px; */
+   /* margin-right:170px; */
+   margin-left: 20%;
+   margin-right: 20%;
    height: 550px;
 }
 #mission{

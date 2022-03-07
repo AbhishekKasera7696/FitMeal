@@ -9,9 +9,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="mango.css" />
     <link rel="stylesheet" href="comments.css" />
+    <link rel="stylesheet" href="blog_navbar.css">
 </head>
 
 <body>
+  <div id="blog_navbar">
+        
+  </div>
     <div class="geta-border">
         <img class="mango-img" src="https://i.ibb.co/1MQV60b/mangoes-1320111-640.jpg" />
     </div>
@@ -264,7 +268,10 @@
             <button onclick="store()">Leave Comment</button>
     
         </div>
-        <script  src='comments.js'>
+        
+     
+        <script  src='comments.js' type="module" src="blog_navbar.js">
+           
           // function store(){
           //     var data=localStorage.getItem("data")
           //     if(data==null){
@@ -291,6 +298,8 @@
           
           // }
           </script>
+          <script type="module" src="blog_navbar.js"></script>
+         
     </body>
   
    

@@ -33,7 +33,7 @@ body{
     height: 300px;
     width: 1130px;
    background-color: whitesmoke;
-   top: 230px;
+   top: 284px;
     left: 200px;
     /* border-radius: 30px; */
     border-top-left-radius: 30px;
@@ -90,7 +90,7 @@ body{
     margin-left: 260px;
     margin-top: 50px;
     font-weight: lighter;
-    margin-bottom: 10px;"
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 600px) {
     .geta-border{
