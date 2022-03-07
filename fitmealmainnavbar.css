@@ -182,7 +182,7 @@ img{
    
     
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:800px) {
    .first{
        display: none;
    }
@@ -234,4 +234,7 @@ img{
 }
               
                
+}
+a{
+   text-decoration: none;
 }
