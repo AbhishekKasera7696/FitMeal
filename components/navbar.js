@@ -14,9 +14,8 @@ function navbar(){
     <div id="myDropdown" class="dropdown-content">
       <a href="weight_loss_meal_plan.html">Weight loss meal plan</a>
       <a href="maintainance_meal_plan.html">Maintenance meal plan</a>
-      <a href="#contact">Athletic meal plan</a>
-      <a href="#contact">Keto meal plan</a>
-      <a href="#contact">Transformation challenegs</a>
+      <a href="Athletic_Meal_Plan.html">Athletic meal plan</a>
+      <a href="keto_meal_plan.html">Keto meal plan</a>
     </div>
   </div>
 
@@ -36,10 +35,10 @@ function navbar(){
   <div class="dropdown">
   <button onclick="myFunct()" class="dropbtn">Products</button>
   <div id="Dropdown" class="dropdown-content">
-    <a href="#home">Vegan Sweets</a>
-    <a href="#about">Low call sauces</a>
-    <a href="#contact">Nut butters</a>
-    <a href="#contact">Fresh bakes</a>
+    <a href="vegan sweets.html">Vegan Sweets</a>
+    <a href="localories.html">Low call sauces</a>
+    <a href="nutbutter.html">Nut butters</a>
+    <a href="FreshBakes.html">Fresh bakes</a>
   </div>
 </div>
 
@@ -62,9 +61,9 @@ function navbar(){
     <div class="dropdown">
   <button onclick="myFun()" class="dropbtn">About Us</button>
   <div id="Dropdown3" class="dropdown-content">
-    <a href="#home">Our Story</a>
-    <a href="#about">FAQ</a>
-    <a href="#contact">Testimonials</a>
+    <a href="our story.html">Our Story</a>
+    <a href="FAQ.html">FAQ</a>
+    <a href="testimonials.html">Testimonials</a>
 
   </div>
 </div>
