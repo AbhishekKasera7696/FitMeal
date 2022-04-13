@@ -10,7 +10,7 @@
 
 
 ## Live Demo
-https://vikalpbookmyshow.netlify.app
+https://featmealclone.netlify.app/
 
 ## Team Members
 
